@@ -22,8 +22,8 @@ background color: hotpink;
 }
 
 .box {
-  float: right;
-  width: 300px;
+  float: right; left: ;
+  width: 200px;
   border: solid black 3px;
   padding: 10px;
   margin: 20px;
@@ -34,7 +34,7 @@ background color: hotpink;
   height: 200px;
   padding: 10px;
   margin: auto px;
-  font-size: 60px;
+  font-size: 80px;
 }
 
 
