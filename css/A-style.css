@@ -1,6 +1,14 @@
+background {
+	background: url(https://thumbs.dreamstime.com/b/closeup-pink-hair-background-closeup-pink-hair-making-background-116267335.jpg);
+}
+
 body{
 background color: hotpink;
+font-size: 30px;
+background: url(https://thumbs.dreamstime.com/b/closeup-pink-hair-background-closeup-pink-hair-making-background-116267335.jpg);
+background-size: 100px;
 }
+
 
 #wrapper {
   margin: 2em auto;
@@ -19,6 +27,7 @@ background color: hotpink;
 
 .article div {
   background-color:darkgray;
+
 }
 
 .box {
@@ -43,6 +52,11 @@ width: 500px;
 
 
 }
+
+.paragraph {
+font-size: 50px;
+}
+
 
 
 
