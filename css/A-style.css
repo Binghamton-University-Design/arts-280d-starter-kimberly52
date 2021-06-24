@@ -1,13 +1,4 @@
 
-body {
-  background-color: #202030;
-  color: #000;
-  font-size: 16px;
-  font-family: 'Noto Sans JP', sans-serif;
-  background: url('../images/night-sky.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 #wrapper {
   margin: 2em auto;
@@ -24,7 +15,7 @@ body {
 }
 
 .article div {
-  background-color:rgba(0,0,0,0.1);
+  background-color:pink;
 }
 
 .box {
