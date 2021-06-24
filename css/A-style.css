@@ -11,32 +11,38 @@ background color: hotpink;
 
 .article {
   position: relative;
-  width: 140%;
+  width: 100%;
   overflow: hidden;
   padding: 60px 0 20px 0;
-  background-color: #fff;
+  
 }
 
 .article div {
-  background-color:gray;
+  background-color:darkgray;
 }
 
 .box {
-  float: right; left: ;
-  width: 200px;
+  float: right; 
+  width: 230px;
   border: solid black 3px;
   padding: 10px;
   margin: 20px;
 }
 
 .masthead {
-  width: 1900px;
-  height: 200px;
+  width: 840px;
+  height: 250px;
   padding: 10px;
-  margin: auto px;
-  font-size: 80px;
+  margin: 20px;
+  font-size: 30px;
+  
 }
 
+.firstpara {
+width: 500px;
+
+
+}
 
 
 
