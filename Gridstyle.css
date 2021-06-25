@@ -28,7 +28,7 @@ body{
 	grid-template-areas: 
 		"header header header header header header"
 		"featured_header featured_header featured_header featured_header featured_header featured_header"
-		". featured_main featured_main featured_main featured_pfp ."
+		". featured_main featured_main featured_main featured_main ."
 		". content content content content ."
 		"footer footer footer footer footer footer"
 }
