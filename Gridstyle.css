@@ -1,11 +1,9 @@
 /*stylesheet*/
 
 body{
-	margin:0;
-	padding: ;
-	font-family: sans-serif;
-	line-height: 1.5em;
-	
+	color: #000;
+	font-size: 16px;
+	font-family: Noto Sans;
 	}
 
 #site_wrap { 
@@ -14,32 +12,35 @@ body{
 	display: grid;
 	grid-template-columns: 
 	1fr 
-	repeat(4,minmax(0,270px))
+	repeat(4,minmax(0,272px))
 	1fr
-;
-	grid-gap: 0px;
+  ;
+	grid-gap: 5px;
 	grid-template-rows: 
 	100px
 	200px
 	400px
 	400px
-	1fr;
+	1fr
+	;
+
 
 	grid-template-areas: 
-		"header header header header header header"
+		"main_header main_header main_header main_header main_header main_header"
 		"featured_header featured_header featured_header featured_header featured_header featured_header"
-		". featured_main featured_main featured_main featured_pfp ."
+		". featured_main featured_main featured_main featured_pfp ."	
 		". content content content content ."
 		"footer footer footer footer footer footer"
-}
-
-
 
 }
 
-.header{
+
+
+}
+
+.main_header{
 	background-color:hotpink;
-	grid-area:header;
+	grid-area:main_header;
 }
 
 .featured_header{
