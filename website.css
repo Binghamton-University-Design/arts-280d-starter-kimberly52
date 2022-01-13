@@ -403,11 +403,17 @@ z-index: 1;
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.5s;
 
 }
 
 .icon img{
   width: 28px;
+
 }
 
 .icon a{ 
@@ -422,10 +428,16 @@ z-index: 1;
   justify-content: center;
   opacity: 0;
   transition: 0.5s;
+
  
 }
 .icon a:hover {
   opacity: 1;
+  }
+
+.icon:hover{
+  transform: translateY(-5px);
+
 
 
 
