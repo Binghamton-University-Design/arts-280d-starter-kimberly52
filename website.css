@@ -352,10 +352,11 @@ z-index: 1;
   align-items: flex-end;
   justify-content: space-between;
   position: relative;
-  margin-top: 2%;
+  margin-top: 10%;
 }
   .left-col{
     flex-basis: 40%
+
   }
 
   .right-col{
@@ -363,7 +364,7 @@ z-index: 1;
   }
 
 .left-col img{
-  width: 120%;
+  width: 100%;
   
   transition filter: 1s;
   height: 120%;
@@ -372,15 +373,23 @@ z-index: 1;
    filter: grayscale(1);
 }
 .right-col h1{ 
-    font-size: 40px;
+    padding-left: 5%;
+    border-left: 15%;
+    font-size: 50px;
+    margin-left: 6%;
     font-weight: 600;
-    padding 50%;
+    margin-bottom: 5%;
+    
 }
 .right-col p{
  
   color:777;
-  margin: 20px 0 70px;
- padding: 20%;
+  margin: 10px 0 20px;
+
+ margin-left: 12%;
+ margin-bottom: 12%;
+}
+
 
 
 
