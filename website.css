@@ -367,7 +367,7 @@ z-index: 1;
   width: 100%;
   
   transition filter: 1s;
-  height: 120%;
+  height: 10%;
 }
 .left-col img:hover{
    filter: grayscale(1);
