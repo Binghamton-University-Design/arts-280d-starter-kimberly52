@@ -1,6 +1,6 @@
 /* vars */
 :root {
-  --background-color: #fff;
+  --background-color: #DB778D;
   --body-color: #111;
 }
 
@@ -389,6 +389,27 @@ z-index: 1;
  margin-left: 12%;
  margin-bottom: 12%;
 }
+
+.social-media {
+  display: flex;
+  margin-top: 30px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.icon img{
+  width: 28px;
+}
+
+
 
 
 
